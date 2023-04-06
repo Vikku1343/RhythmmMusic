@@ -20,21 +20,30 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-import glob
-from os.path import basename, dirname, isfile
+import os
+
+from pyrogram import filters
+from pyrogram.types import Message
+
+from config import OWNER_ID
+from FallenMusic import app
 
 
-def __list_all_modules():
-    mod_paths = glob.glob(dirname(__file__) + "/*.py")
+@app.on_message(filters.command(["clearcache", "rmdownloads"]) & filters.user(OWNER_ID))
+async def clear_misc(_, message: Message):
+    try:
+        await message.delete()
+    except:
+        pass
+    downloads = os.path.realpath("downloads")
+    down_dir = os.listdir(downloads)
+    pth = os.path.realpath(".")
+    os_dir = os.listdir(pth)
 
-    all_modules = [
-        basename(f)[:-3]
-        for f in mod_paths
-        if isfile(f) and f.endswith(".py") and not f.endswith("__init__.py")
-    ]
-
-    return all_modules
-
-
-ALL_MODULES = sorted(__list_all_modules())
-__all__ = ALL_MODULES + ["ALL_MODULES"]
+    if down_dir:
+        for file in down_dir:
+            os.remove(os.path.join(downloads, file))
+    if os_dir:
+        for lel in os.listdir(pth):
+            os.system("rm -rf *.webm *.jpg *.png")
+    await message.reply_text("» ᴀʟʟ ᴛᴇᴍᴘ ᴅɪʀᴇᴄᴛᴏʀɪᴇs ᴄʟᴇᴀɴᴇᴅ.")
