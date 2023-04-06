@@ -16,10 +16,10 @@
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/491d40f7a9f2062cbac85.jpg">
+  <img src="https://te.legra.ph/file/dfe33bd44cc92ec1e8ba6.jpg">
 </p>
 
-_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʀʏᴛʜᴍ ✘ ᴍᴜsɪᴄ](http://t.me/RythmmRobot)**_
+_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʀʏᴛʜᴍ ✘ ᴍᴜsɪᴄ](http://t.me/RhythmmRobot)**_
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
@@ -34,7 +34,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʀʏᴛʜᴍ ✘ �
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
-  <img src="https://telegra.ph/file/da87b269ac7e7eee24bcd.jpg">
+  <img src="https://te.legra.ph/file/51b76b943b25deadb7e8b.jpg">
 </p>to
 
 <p align="center">
@@ -51,14 +51,14 @@ Tᴏʜ Usʜɪ Kᴇ Hᴏ Jᴀɴᴀ... <𝟹🙂💔=]]
     ─「 🎉ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ✨ 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/CuteBaccha/sonababy"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Vikku1343/RhythmmMusic"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 <details>
 <summary><h3>
 - <b> ᴠᴘs/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ </b>
 </h3></summary>
 
-- Get your [Necessary Variables](https://github.com/CuteBaccha/sona/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/Vikku1343/RhythmmMusic/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install required packages by :
@@ -85,7 +85,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 Press `Ctrl+b` and then `d`
 
 <p align="center">
-  <img src="https://telegra.ph/file/5081730e52145378eb3b8.jpg">
+  <img src="https://te.legra.ph/file/06585e8a7c74545125701.jpg">
 </p>
 
 </details>
@@ -108,7 +108,7 @@ Press `Ctrl+b` and then `d`
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/CuteBaccha)  ғᴏʀ  [ғᴀʟʟᴇɴ ᴍᴜsɪᴄ](https://github.com/CuteBaccha/sona) </b>
+- <b>[ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/Vikku1343)  ғᴏʀ  [ʀʜʏᴛʜᴍ ᴍᴜsɪᴄ](https://github.com/CuteBaccha/sona) </b>
 - <b>[ᴅᴀɴ](https://github.com/delivrance)  ғᴏʀ  [ᴘʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram) </b>
 - <b>[ʟᴀᴋʏ](https://github.com/Laky-64)  ғᴏʀ  [ᴘʏ-ᴛɢᴄᴀʟʟs](https://github.com/pytgcalls/pytgcalls) </b>
 
