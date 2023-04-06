@@ -20,13 +20,13 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from .active import *
-from .admins import *
-from .clear import _clear_
-from .dossier import *
-from .errors import *
-from .formatters import *
-from .gets import *
-from .inline import *
-from .queue import *
-from .thumbnails import *
+from FallenMusic import fallendb
+from FallenMusic.Helpers import remove_active_chat
+
+
+async def _clear_(chat_id):
+    try:
+        fallendb[chat_id] = []
+        await remove_active_chat(chat_id)
+    except:
+        return

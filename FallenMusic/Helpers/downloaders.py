@@ -20,13 +20,33 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from .active import *
-from .admins import *
-from .clear import _clear_
-from .dossier import *
-from .errors import *
-from .formatters import *
-from .gets import *
-from .inline import *
-from .queue import *
-from .thumbnails import *
+import os
+
+from yt_dlp import YoutubeDL
+
+ydl_opts = {
+    "format": "bestaudio/best",
+    "outtmpl": "downloads/%(id)s.%(ext)s",
+    "geo_bypass": True,
+    "nocheckcertificate": True,
+    "quiet": True,
+    "no_warnings": True,
+    "prefer_ffmpeg": True,
+    "postprocessors": [
+        {
+            "key": "FFmpegExtractAudio",
+            "preferredcodec": "mp3",
+            "preferredquality": "320",
+        }
+    ],
+}
+ydl = YoutubeDL(ydl_opts)
+
+
+def audio_dl(url: str) -> str:
+    sin = ydl.extract_info(url, False)
+    x_file = os.path.join("downloads", f"{sin['id']}.mp3")
+    if os.path.exists(x_file):
+        return x_file
+    ydl.download([url])
+    return x_file
